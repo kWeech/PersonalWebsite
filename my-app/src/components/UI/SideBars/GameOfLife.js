@@ -1,4 +1,5 @@
 import React, { useRef, useLayoutEffect, useEffect, useState } from "react";
+import classes from "./GameOfLife.module.css";
 
 const generateRandomGrid = (numRows, numCols) => {
   const rows = [];
@@ -118,6 +119,7 @@ function GameOfLife() {
         cells.push(
           <>
             <div
+              className={classes.mobileHide}
               style={{
                 display: "inline - block",
                 backgroundColor: "#5f43b2",
@@ -131,6 +133,7 @@ function GameOfLife() {
               }}
             ></div>
             <div
+              className={classes.mobileHide}
               style={{
                 display: "inline - block",
                 backgroundColor: "#5f43b2",
@@ -152,6 +155,7 @@ function GameOfLife() {
   return (
     <>
       <div
+        className={classes.mobileHide}
         ref={myRef}
         style={{
           height: "100vh",
@@ -164,6 +168,7 @@ function GameOfLife() {
         {cells}
       </div>
       <div
+        className={classes.mobileHide}
         ref={myRef}
         style={{
           height: "100vh",

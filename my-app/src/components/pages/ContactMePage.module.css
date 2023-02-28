@@ -11,3 +11,9 @@
   align-self: center;
   width: 30vw;
 }
+
+@media (max-width: 600px) {
+  .text {
+    width: 50vw;
+  }
+}

@@ -24,6 +24,7 @@ textarea {
   font-family: Consolas, monospace;
   width: 30vw;
   word-wrap: break-word;
+  min-width: 13rem;
 }
 
 .container textarea {
@@ -43,6 +44,7 @@ textarea {
   width: 30vw;
   text-align: center;
   font-size: 17px;
+  min-width: 13rem;
 }
 
 .container button:hover {
