@@ -194,5 +194,10 @@
   .name::after {
     display: none;
     animation: none;
+    background: none;
+  }
+  .name::before {
+    animation: none;
+    background: none;
   }
 }
