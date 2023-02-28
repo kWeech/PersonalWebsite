@@ -1,0 +1,42 @@
+.projectPage {
+  /* background-color: #0c0c0c;
+  background-color: #1b1235; */
+
+  /* padding: 40px; */
+  /* height: 100vh; */
+  /* width: 70vw; */
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /* height: 80vh; */
+  overflow-y: scroll;
+
+  /* overflow-x: hidden; Hide horizontal scrollbar */
+}
+
+.projectPage::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+  display: contents;
+}
+
+.projectPage::-webkit-scrollbar-thumb {
+  background-color: #5f43b2;
+  border-radius: 3px;
+}
+
+.title {
+  /* text-align: center; */
+  /* text-transform: capitalize; */
+  color: #f5f5f5;
+  /* align-self: flex-start; */
+  margin-left: 5vw;
+  margin-right: 5vw;
+  /* margin-bottom: 0rem; */
+  /* margin-top: 0rem; */
+}
+
+/* :hover {
+  background: rgba(255, 255, 255, 0.2);
+} */

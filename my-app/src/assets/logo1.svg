@@ -1,0 +1,16 @@
+
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <path
+    fill="none"
+    stroke="lightgrey"
+    d="M2 40V1L9 4V17L22 10.5V4L29 1V14L15.5 20.5L29 27V40L22 37V30.5L9 24V37L2 40Z"/>
+
+  <path fill="none"
+    stroke="red">
+    <animate
+      dur="10s"
+      repeatCount="indefinite"
+     d="M9 4L2 7.5L9 10.5L2 14L8.5 17L2 20.5L9 24M9 24L2 27L9 30.5L2 34L9 37M9 24V17L15.5 20.5M9 24L15.5 20.5M15.5 20.5V13.5L22 17V10.5M15.5 20.5V27L22 23.5V30.5M22 10.5L29 14M22 10.5L29 7L22 4M22 30.5L29 27M22 30.5L29 34L22 37"/>
+  </path>
+</svg>
+

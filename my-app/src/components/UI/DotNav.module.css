@@ -1,0 +1,9 @@
+.dotNav {
+  position: fixed;
+  right: calc(10vw - 25px);
+  top: 40vh;
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  align-items: center;
+}
