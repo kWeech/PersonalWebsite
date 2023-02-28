@@ -11,6 +11,7 @@
   align-items: left;
   height: 100vh;
   min-height: 700px;
+  margin-bottom: 0rem;
   /* overflow: scroll; */
   scroll-snap-align: center;
 }

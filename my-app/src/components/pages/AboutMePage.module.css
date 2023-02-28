@@ -10,7 +10,7 @@
   align-items: center;
   align-content: center;
   justify-items: center;
-  margin-top: 1rem;
+  margin-top: 0rem;
   margin-bottom: 1rem;
   height: 100%;
 }
@@ -26,4 +26,16 @@
 .paragraph {
   margin-left: 0;
   margin-right: 2rem;
+}
+
+@media (max-width: 600px) {
+  .aboutMeContainer {
+    margin-top: -2rem;
+  }
+  .skillsContainer {
+    margin-top: 0rem;
+  }
+  .paragraph {
+    font-size: 14px;
+  }
 }

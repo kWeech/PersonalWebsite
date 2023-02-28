@@ -56,6 +56,9 @@ function GameOfLife() {
         );
       }
       setGrid((prevTwoArray) => {
+        if (!prevTwoArray.length || !prevTwoArray[0].length) {
+          return prevTwoArray;
+        }
         let tempArray = generateRandomGrid(
           prevTwoArray.length,
           prevTwoArray[0].length
