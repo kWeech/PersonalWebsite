@@ -21,6 +21,8 @@
   height: 25vw;
   width: 25vw;
   margin-top: 3rem;
+  max-width: 40vh;
+  max-height: 40vh;
 }
 
 .paragraph {
