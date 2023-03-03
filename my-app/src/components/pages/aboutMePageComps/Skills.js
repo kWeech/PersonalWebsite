@@ -224,7 +224,7 @@ const Skills = () => {
           ></SiCplusplus>
 
           {/* c# */}
-          <SiCsharp
+          {/* <SiCsharp
             style={{
               position: "absolute",
               left: iconPositions[17][0],
@@ -237,14 +237,14 @@ const Skills = () => {
               left: iconPositions[18][0],
               bottom: iconPositions[18][1],
             }}
-          ></DiUnitySmall>
+          ></DiUnitySmall> */}
 
           {/* sql */}
           <DiMysql
             style={{
               position: "absolute",
-              left: iconPositions[19][0],
-              bottom: iconPositions[19][1],
+              left: iconPositions[17][0],
+              bottom: iconPositions[17][1],
             }}
           ></DiMysql>
         </div>

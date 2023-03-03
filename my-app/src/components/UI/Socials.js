@@ -46,7 +46,7 @@ const Socials = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://1drv.ms/b/s!Ap1Hp3RCpQoZ7yfirzVUM_dlu-fj?e=p5wJwZ"
+          href="https://1drv.ms/b/s!Ap1Hp3RCpQoZhcxyXn5yXIH5I1yQAw?e=pY1tO2"
         >
           <BsFillFileEarmarkPersonFill
             onMouseOver={({ target }) => (target.style.color = "#5f43b2")}
