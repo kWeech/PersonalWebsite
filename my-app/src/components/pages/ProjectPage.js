@@ -28,6 +28,12 @@ const project_list = [
     link: "",
   },
   {
+    title: "UofC Nursing Hackathon",
+    description:
+      "A website prototype in React.js to be accessed via phone for nurses to easier take notes via text to speech and access patients via QR codes.",
+    link: "https://github.com/kWeech/UofCEngineeringNursingHackathon",
+  },
+  {
     title: "UofC Dino's Nanoleaf",
     description:
       "From the University of Calgary Nanoleaf Hackathon,  team's nanoleaf project transformed multiple HMTL source code files containing images into an animation of the UofC Dino stomping, roaring and breathing fire that can be displayed on an array of Nanoleaf panels using Python. Our project is currently being displayed on the 2nd floor of ICT at the University of Calgary.",
