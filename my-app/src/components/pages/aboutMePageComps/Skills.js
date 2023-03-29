@@ -10,6 +10,7 @@ import {
   DiPython,
 } from "react-icons/di";
 import {
+  SiC,
   SiSpring,
   SiCplusplus,
   SiNextdotjs,
@@ -38,9 +39,9 @@ function debounce(callback, wait) {
 
 const Skills = () => {
   const skillsRef = useRef(null);
-  const [iconPositions, setIconPositions] = useState(new Array(20).fill(0));
+  const [iconPositions, setIconPositions] = useState(new Array(22).fill(0));
   const [thumbPosition, setThumbPosition] = useState(0);
-  const iconSize = 15;
+  const iconSize = 14;
   let container;
   if (document.getElementById("container")) {
     container = document.getElementById("container");
@@ -214,37 +215,47 @@ const Skills = () => {
             }}
           ></SiNumpy>
 
-          {/* c++ */}
-          <SiCplusplus
+          <SiC
             style={{
               position: "absolute",
               left: iconPositions[16][0],
               bottom: iconPositions[16][1],
             }}
-          ></SiCplusplus>
+          ></SiC>
 
-          {/* c# */}
-          {/* <SiCsharp
+          {/* c++ */}
+          <SiCplusplus
             style={{
               position: "absolute",
               left: iconPositions[17][0],
               bottom: iconPositions[17][1],
             }}
-          ></SiCsharp>
-          <DiUnitySmall
+          ></SiCplusplus>
+
+          {/* c# */}
+          <SiCsharp
             style={{
               position: "absolute",
               left: iconPositions[18][0],
               bottom: iconPositions[18][1],
             }}
-          ></DiUnitySmall> */}
+          ></SiCsharp>
+
+          {/* unity */}
+          <DiUnitySmall
+            style={{
+              position: "absolute",
+              left: iconPositions[19][0],
+              bottom: iconPositions[19][1],
+            }}
+          ></DiUnitySmall>
 
           {/* sql */}
           <DiMysql
             style={{
               position: "absolute",
-              left: iconPositions[17][0],
-              bottom: iconPositions[17][1],
+              left: iconPositions[20][0],
+              bottom: iconPositions[20][1],
             }}
           ></DiMysql>
         </div>
