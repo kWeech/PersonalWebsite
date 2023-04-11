@@ -23,6 +23,7 @@ import {
   SiNumpy,
   SiCsharp,
   SiTypescript,
+  SiJest,
 } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { IconContext } from "react-icons";
@@ -41,7 +42,10 @@ function debounce(callback, wait) {
 
 const Skills = () => {
   const skillsRef = useRef(null);
-  const [iconPositions, setIconPositions] = useState(new Array(24).fill(0));
+  const numOfIcons = 24;
+  const [iconPositions, setIconPositions] = useState(
+    new Array(numOfIcons).fill(0)
+  );
   const [thumbPosition, setThumbPosition] = useState(0);
   const iconSize = 13;
   let container;
@@ -276,6 +280,14 @@ const Skills = () => {
               bottom: iconPositions[22][1],
             }}
           ></DiPostgresql>
+          {/* Jest */}
+          <SiJest
+            style={{
+              position: "absolute",
+              left: iconPositions[23][0],
+              bottom: iconPositions[23][1],
+            }}
+          ></SiJest>
         </div>
       </IconContext.Provider>
     </>
