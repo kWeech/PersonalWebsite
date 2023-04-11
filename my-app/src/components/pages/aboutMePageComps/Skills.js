@@ -21,6 +21,7 @@ import {
   SiPandas,
   SiNumpy,
   SiCsharp,
+  SiTypescript,
 } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { IconContext } from "react-icons";
@@ -258,6 +259,14 @@ const Skills = () => {
               bottom: iconPositions[20][1],
             }}
           ></DiMysql>
+          {/* typescript */}
+          <SiTypescript
+            style={{
+              position: "absolute",
+              left: iconPositions[21][0],
+              bottom: iconPositions[21][1],
+            }}
+          ></SiTypescript>
         </div>
       </IconContext.Provider>
     </>
