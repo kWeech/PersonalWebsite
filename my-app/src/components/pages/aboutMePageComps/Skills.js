@@ -8,6 +8,7 @@ import {
   DiCss3,
   DiReact,
   DiPython,
+  DiPostgresql,
 } from "react-icons/di";
 import {
   SiC,
@@ -40,9 +41,9 @@ function debounce(callback, wait) {
 
 const Skills = () => {
   const skillsRef = useRef(null);
-  const [iconPositions, setIconPositions] = useState(new Array(22).fill(0));
+  const [iconPositions, setIconPositions] = useState(new Array(24).fill(0));
   const [thumbPosition, setThumbPosition] = useState(0);
-  const iconSize = 14;
+  const iconSize = 13;
   let container;
   if (document.getElementById("container")) {
     container = document.getElementById("container");
@@ -267,6 +268,14 @@ const Skills = () => {
               bottom: iconPositions[21][1],
             }}
           ></SiTypescript>
+          {/* Postgresql */}
+          <DiPostgresql
+            style={{
+              position: "absolute",
+              left: iconPositions[22][0],
+              bottom: iconPositions[22][1],
+            }}
+          ></DiPostgresql>
         </div>
       </IconContext.Provider>
     </>
