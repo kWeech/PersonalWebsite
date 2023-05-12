@@ -4,6 +4,12 @@ import Page from "../UI/Page";
 
 const project_list = [
   {
+    title: "TrailCollectiv App",
+    description:
+      "Migration of the TrailCollectiv phone app from Codename One to a full stack product with a React Native front end, a Node.js backend using Express.js and Typescript, and a PostgreSQL database",
+    link: "https://www.trailcollectiv.com/",
+  },
+  {
     title: "BroBot",
     description:
       "BroBot is a discord bot that I made for my friends and I. It has a variety of commands that can be used to make your discord experience more enjoyable. /Play allows you to play music from YouTube in your voice channel. /Image generates an AI image using DALLE. /Chat allows you to chat with a GPT-3 model. /Draft drafts picks from some of our favourite games.",
