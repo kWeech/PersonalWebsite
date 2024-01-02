@@ -6,8 +6,20 @@ const project_list = [
   {
     title: "TrailCollectiv App",
     description:
-      "Migration of the TrailCollectiv phone app from Codename One to a full stack product with a React Native front end, a Node.js backend using Express.js and Typescript, and a PostgreSQL database",
+      "Migration of the TrailCollectiv phone app from Codename One to a full stack product with a React Native front end, a Node.js backend using Express.js and Typescript, and a PostgreSQL database. Backend hosted on AWS and frontend on Google Play Store and Apple App Store",
     link: "https://www.trailcollectiv.com/",
+  },
+  {
+    title: "Voto Web App",
+    description:
+      "Voting app for purposeful engagement and micro-donations built in Ionic Angular and hosted on Firebase",
+    link: "https://www.votoapp.co/",
+  },
+  {
+    title: "What's Up Media Creator Portal",
+    description:
+      "Created a React front end hosted on Vercel to transform and display creator data using Snapchat API’s OAuth 2.0 endpoints",
+    link: "",
   },
   {
     title: "BroBot",
@@ -31,7 +43,7 @@ const project_list = [
     title: "Beretta Electric Website",
     description:
       "berettaelectric.ca is a website built in Next.js for the electrical company Beretta Electric servicing the Kelowna/Vernon/Lake Country area.",
-    link: "",
+    link: "https://www.berettaelectric.ca/",
   },
   {
     title: "UofC Nursing Hackathon",
@@ -62,18 +74,6 @@ const project_list = [
     description:
       "Full stack movie theatre app built on Spring, MySQL, and simple Javascript/HTML with a team of 3.",
     link: "https://github.com/kWeech/ENSF607-FullstackStudentRegistrationProject",
-  },
-  {
-    title: "NLP Github Sentiment",
-    description:
-      "Natural language processing sentiment analysis machine learning model in Apache Spark.",
-    link: "https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/653787253777680/3417887240428900/4029053541865654/latest.html",
-  },
-  {
-    title: "NLP Github Links",
-    description:
-      "Natural language processing link analysis machine learning model in Apache Spark.",
-    link: "https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/653787253777680/1337321041553986/4029053541865654/latest.html",
   },
 ];
 

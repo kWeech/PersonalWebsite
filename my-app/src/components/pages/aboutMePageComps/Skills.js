@@ -1,7 +1,6 @@
 import {
   DiSpark,
   DiJava,
-  DiUnitySmall,
   DiJavascript1,
   DiHtml5,
   DiMysql,
@@ -11,8 +10,6 @@ import {
   DiPostgresql,
 } from "react-icons/di";
 import {
-  SiC,
-  SiSpring,
   SiCplusplus,
   SiNextdotjs,
   SiPytorch,
@@ -21,9 +18,10 @@ import {
   SiDatabricks,
   SiPandas,
   SiNumpy,
-  SiCsharp,
   SiTypescript,
   SiJest,
+  SiAngular,
+  SiAmazonaws,
 } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { IconContext } from "react-icons";
@@ -112,13 +110,13 @@ const Skills = () => {
               bottom: iconPositions[0][1],
             }}
           ></DiJava>
-          <SiSpring
+          <SiAngular
             style={{
               position: "absolute",
               left: iconPositions[1][0],
               bottom: iconPositions[1][1],
             }}
-          ></SiSpring>
+          ></SiAngular>
           {/* javsscript */}
           <DiJavascript1
             style={{
@@ -221,13 +219,13 @@ const Skills = () => {
             }}
           ></SiNumpy>
 
-          <SiC
+          <SiAmazonaws
             style={{
               position: "absolute",
               left: iconPositions[16][0],
               bottom: iconPositions[16][1],
             }}
-          ></SiC>
+          ></SiAmazonaws>
 
           {/* c++ */}
           <SiCplusplus
@@ -238,54 +236,39 @@ const Skills = () => {
             }}
           ></SiCplusplus>
 
-          {/* c# */}
-          <SiCsharp
+          {/* sql */}
+          <DiMysql
             style={{
               position: "absolute",
               left: iconPositions[18][0],
               bottom: iconPositions[18][1],
             }}
-          ></SiCsharp>
+          ></DiMysql>
 
-          {/* unity */}
-          <DiUnitySmall
+          {/* typescript */}
+          <SiTypescript
             style={{
               position: "absolute",
               left: iconPositions[19][0],
               bottom: iconPositions[19][1],
             }}
-          ></DiUnitySmall>
+          ></SiTypescript>
 
-          {/* sql */}
-          <DiMysql
+          {/* Postgresql */}
+          <DiPostgresql
             style={{
               position: "absolute",
               left: iconPositions[20][0],
               bottom: iconPositions[20][1],
             }}
-          ></DiMysql>
-          {/* typescript */}
-          <SiTypescript
-            style={{
-              position: "absolute",
-              left: iconPositions[21][0],
-              bottom: iconPositions[21][1],
-            }}
-          ></SiTypescript>
-          {/* Postgresql */}
-          <DiPostgresql
-            style={{
-              position: "absolute",
-              left: iconPositions[22][0],
-              bottom: iconPositions[22][1],
-            }}
           ></DiPostgresql>
+
           {/* Jest */}
           <SiJest
             style={{
               position: "absolute",
-              left: iconPositions[23][0],
-              bottom: iconPositions[23][1],
+              left: iconPositions[21][0],
+              bottom: iconPositions[21][1],
             }}
           ></SiJest>
         </div>
